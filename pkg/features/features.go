@@ -31,5 +31,5 @@ func init() {
 // defaultKubernetesFeatureGates consists of all known feature keys specific to external-provisioner.
 // To add a new feature, define a key for it above and add it here.
 var defaultKubernetesFeatureGates = map[utilfeature.Feature]utilfeature.FeatureSpec{
-	Topology: {Default: false, PreRelease: utilfeature.Alpha},
+	Topology: {Default: true, PreRelease: utilfeature.Alpha},
 }
